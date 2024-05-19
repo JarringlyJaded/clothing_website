@@ -1,0 +1,246 @@
+/* CSS For Back End */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+.tbl-fuller{
+    width: 100%;
+    font-size: 75%;
+}
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #747d8c;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #2f3542;
+}
+
+.btn-update{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-update:hover{
+    background-color: #3742fa;
+}
+
+.btn-delete{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-delete:hover{
+    background-color: #ff4757;
+}
+
+.success{
+    color: #1e90ff;
+}
+
+.error{
+    color: #ff6b81;
+}
+
+/* CSS for Clothes */
+.collection{
+    border-bottom: 1px solid grey;
+}
+.collection ul{
+    list-style-type: none;
+}
+.collection ul li{
+    display: inline;
+    padding: 1%;
+}
+.collection ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #2f3542;
+}
+.menu ul li:hover{
+    color: #57606f;
+}
+
+/* CSS for Main Content */
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.main-content1{
+    background-image: url(../images/bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.main-content2{
+    background-image: url(../images/bg5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.main-content3{
+    background-image: url(../images/bg6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.main-content4{
+    background-image: url(../images/bg7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.main-content5{
+    background-image: url(../images/bg8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.main-content6{
+    background-image: url(../images/newlogo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+.whitebox{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 10px;
+    width: 1005px;
+    border: 5px solid #555;
+}
+
+
+/* CSS for Footer */
+.footer{
+    background-color: #57606f;
+    color: white;
+}
+
+/* CSS For Login */
+.login{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid grey;
+    width: 40%; 
+    margin: 7% auto;
+    padding: 2%; 
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+ 
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+
+button:hover {
+    opacity: 0.8;
+  }
+  
+  
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+
+.container2 {
+    padding: 16px;
+  }
+  
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
